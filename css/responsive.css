@@ -1,0 +1,134 @@
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+ 
+    /* start top menu style */
+
+  .top-menu .content {
+    grid-template-columns: repeat(2, auto);
+    padding: 10px;
+  }
+  .mobile-menu i {
+    font-size: 2rem;
+    display: block;
+  }
+  header.banner .right-side .title {
+    font-size: 2.2rem;
+
+  }
+  .top-menu .menu {
+    display: none;
+  }
+  .top-menu .icons > i {
+    display: none;
+  }
+  .top-menu .icons {
+    display: flex;
+    justify-content: end;
+  }
+
+  /* end top menu style */
+
+  /* start banner style */
+  header.banner .content {
+    grid-template-columns: repeat(1, auto);
+  }
+  header.banner .content .left-side {
+    margin-top: 50px;
+  }
+  /* end banner style */
+
+  .books {
+    padding: 30px 0;
+  }
+  .about-book {
+    padding:  0;
+  }
+  .about-book .content {
+    display:block;
+  }
+
+  .discoverd-topics .content , .subscribe .content , .blog .content , .pricing .content , .contact-us .content  {
+    display: block;
+
+  }
+  .subscribe , .blog , .pricing , .subscribe , .contact-us {
+    padding: 20px 0;
+  }
+  .subscribe .left-side {
+    margin-top: 30px;
+  }
+  .subscribe .right-side {
+    padding: 0;
+}
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+
+    /* start top menu style */
+  .top-menu .content {
+    grid-template-columns: repeat(2, auto);
+    padding: 10px;
+  }
+  .mobile-menu i {
+    font-size: 1.8rem;
+    display: block;
+    margin-top: 7px;
+    margin-right: 20px;
+  }
+  .top-menu .menu {
+    display: none;
+  }
+  .top-menu .icons {
+    display: flex;
+    justify-content: end;
+  }
+  /* end top menu style */
+
+  /* start banner style */
+  header.banner .content {
+    grid-template-columns: repeat(1, auto);
+  }
+  header.banner .content .left-side {
+    margin-top: 50px;
+  }
+  /* end banner style */
+
+  .books {
+    padding: 30px 0;
+  }
+  .about-book {
+    padding:  0;
+  }
+  .about-book .content {
+    display:block;
+  }
+
+  .discoverd-topics .content {
+    grid-template-columns: repeat(2 , auto);
+    grid-template-rows: repeat(3 , auto);
+
+  }
+  .subscribe .content {
+    display: grid;
+    grid-template-columns: auto 300px ;
+  }
+  .blog .content , .pricing .content  {
+    grid-template-columns: repeat(2 , auto);
+  }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* start top menu style */
+  .top-menu .content {
+    grid-template-columns: 100px auto 200px;
+  }
+  /* end top menu style */
+}
